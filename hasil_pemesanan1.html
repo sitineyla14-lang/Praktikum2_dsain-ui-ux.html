@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 2: HTML Form</title>
+    
+    <form action="/form_pemesanan1.html" method="post">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 40px;
+            color: #000000;
+        }
+
+        .container {
+            width: 600px;
+            background-color: #fffaf0; /* Warna krem lembut latar belakang */
+            border: 1px solid #d3d3d3;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 28px;
+            letter-spacing: 2px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-weight: normal;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #4682b4; /* Garis biru tipis */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #d2691e; /* Warna oranye kemerahan untuk judul seksi */
+            font-size: 15px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .info-table td {
+            padding: 3px 0;
+            vertical-align: top;
+        }
+
+        .info-table td.label {
+            font-weight: bold;
+            width: 160px; /* Jarak agar titik dua sejajar rapi */
+        }
+
+        .delivery-instruction {
+            font-size: 14px;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+
+        .delivery-instruction span {
+            font-weight: bold;
+        }
+
+        .footer-text {
+            font-size: 11px;
+            color: #333333;
+            border-top: 1px solid #cd853f; /* Garis pembatas bawah cokelat tipis */
+            padding-top: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>THANK YOU</h1>
+        <hr>
+        
+        <p>Thank you for ordering from Black Goose Bistro. We have received the following information about your order:</p>
+        
+        <h2>Your Information</h2>
+        <table class="info-table">
+            <tr>
+                <td class="label">Name:</td>
+                <td>siti naelatulyasroh</td>
+            </tr>
+            <tr>
+                <td class="label">Address:</td>
+                <td>maseng</td>
+            </tr>
+            <tr>
+                <td class="label">Telephone number:</td>
+                <td>1234567890</td>
+            </tr>
+            <tr>
+                <td class="label">Email Address:</td>
+                <td>sitinaelatul@gmail.com</td>
+            </tr>
+        </table>
+        
+        <div class="delivery-instruction">
+            <span>Delivery instructions:</span> Ring the middle buzzer. If nobody answers, text me.
+        </div>
+        
+        <h2>Your pizza</h2>
+        <table class="info-table">
+            <tr>
+                <td class="label">Crust:</td>
+                <td>white</td>
+            </tr>
+            <tr>
+                <td class="label">Toppings:</td>
+                <td>red sauce, mozzarella, pepperoni, mushrooms</td>
+            </tr>
+            <tr>
+                <td class="label">Number:</td>
+                <td>1</td>
+            </tr>
+        </table>
+        
+        <div class="footer-text">
+            This site is for educational purposes only. No pizzas will be delivered.
+        </div>
+    </div>
+   
+</body>
+</html>
+
